@@ -1,0 +1,43 @@
+body{
+    background-image: url('./header.jpg');
+    background-size: cover;
+}
+
+#buttonLink{
+    position: relative;
+    /* left: 500px; */
+    top: 900px;
+    width: 300px;
+    height: 100px;
+    font-size: 35px;
+    font-family: 'Roboto Slab';
+    border-radius: 300px;
+    box-shadow: 2px 6px 8px black;
+    background-color: orangered;
+    border-color: orangered;
+}
+#buttonLink:hover{
+    transition: 1s;
+    transform: scale(1.1, 1.1)
+}
+
+p1{
+    color: white;
+    font-family: 'Roboto Slab';
+    font-size: 80px;
+    position: relative;
+    top: 500px;
+}
+hr{
+    position: relative;
+    top: 900px;
+    color: orangered;
+    border: 5px solid orangered;
+    opacity: 1;
+    width: 100px;
+    border-radius: 300px;
+    left: 595px;
+}
+.buffer{
+    height: 50px;
+}
